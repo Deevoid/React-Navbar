@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-#See it in action [React-Navbar](https://your-new-navbar.netlify.app/)
+
+# See it in action [React-Navbar](https://your-new-navbar.netlify.app/)
 
 ## Available Scripts
 
