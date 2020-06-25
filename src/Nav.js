@@ -9,9 +9,10 @@ const sidebar = {
     clipPath: `circle(${height * 2 + 200}px at 80% 40px)`,
     transition: {
       type: "spring",
-      stiffness: 10,
+      stiffness: 40,
       damping: 40,
       restDelta: 2,
+      ease: "easeInOut",
     },
   }),
   closed: {
