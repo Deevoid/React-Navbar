@@ -31,41 +31,11 @@ const ulVar = {
 const MenuItem = ({ i }) => {
   return (
     <motion.ul variants={ulVar}>
-      <motion.li
-        variants={variants}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
-      >
-        Item 1
-      </motion.li>
-      <motion.li
-        variants={variants}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
-      >
-        Item 2
-      </motion.li>
-      <motion.li
-        variants={variants}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
-      >
-        Item 3
-      </motion.li>
-      <motion.li
-        variants={variants}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
-      >
-        Item 4
-      </motion.li>
-      <motion.li
-        variants={variants}
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
-      >
-        No item here
-      </motion.li>
+      <motion.li variants={variants}>Item 1</motion.li>
+      <motion.li variants={variants}>Item 2</motion.li>
+      <motion.li variants={variants}>Item 3</motion.li>
+      <motion.li variants={variants}>Item 4</motion.li>
+      <motion.li variants={variants}>No item here</motion.li>
     </motion.ul>
   );
 };
